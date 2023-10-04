@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#box{
+    background: url(../images/bg1.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+h1{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 45px;
+    background-blend-mode: darken;
+    background-color: rgba(240, 255, 255, 0.4);
+    width: fit-content;
+}
+.musicsContainer{
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 50px;
+    background-color: rgba(110, 108, 110, 0.8);
+}
+.musicsContainer>.holder1>img{
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+}
+@keyframes m1{
+    from {
+          transform: rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg) ;
+        }
+}
+@keyframes m2{
+   
+}
+button{
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.4);
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+button:active{
+    transform: translate(4px, 4px);
+    box-shadow: none;
+}
+button:hover{
+    cursor: pointer;
+}
+
